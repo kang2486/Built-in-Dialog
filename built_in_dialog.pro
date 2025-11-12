@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    cbuiltindlg.cpp
+    cbuiltindlg.cpp \
+    calculator.cpp
 
 HEADERS += \
-    cbuiltindlg.h
+    cbuiltindlg.h \
+    calculator.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
