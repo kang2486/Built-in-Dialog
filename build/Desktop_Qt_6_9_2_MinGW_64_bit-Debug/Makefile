@@ -138,12 +138,6 @@ Makefile: ../../built_in_dialog.pro C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++/qmake
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri \
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdf.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri \
-		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri \
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_png_private.pri \
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_printsupport.pri \
 		C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri \
@@ -287,7 +281,6 @@ Makefile: ../../built_in_dialog.pro C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++/qmake
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/qt_config.prf \
 		C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++/qmake.conf \
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/exclusive_builds.prf \
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/toolchain.prf \
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/default_pre.prf \
@@ -318,6 +311,7 @@ Makefile: ../../built_in_dialog.pro C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++/qmake
 		C:/Qt/6.9.2/mingw_64/lib/Qt6Gui.prl \
 		C:/Qt/6.9.2/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.9.2/mingw_64/lib/Qt6EntryPoint.prl \
+		.qmake.stash \
 		C:/Qt/6.9.2/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\built_in_dialog.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/6.9.2/mingw_64/mkspecs/features/spec_pre.prf:
@@ -388,12 +382,6 @@ C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_opengl_private.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdf.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri:
-C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_png_private.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_printsupport.pri:
 C:/Qt/6.9.2/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri:
@@ -537,7 +525,6 @@ C:/Qt/6.9.2/mingw_64/mkspecs/features/qt_functions.prf:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/qt_config.prf:
 C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++/qmake.conf:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/spec_post.prf:
-.qmake.stash:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/exclusive_builds.prf:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/toolchain.prf:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/default_pre.prf:
@@ -568,6 +555,7 @@ C:/Qt/6.9.2/mingw_64/lib/Qt6Widgets.prl:
 C:/Qt/6.9.2/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/6.9.2/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.9.2/mingw_64/lib/Qt6EntryPoint.prl:
+.qmake.stash:
 C:/Qt/6.9.2/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\built_in_dialog.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
